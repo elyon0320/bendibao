@@ -1,0 +1,17 @@
+<navigate class="shop" wx:for="{{shopInfo}}" wx:key="{{index}}" bindtap="goToDetails">
+	<image class="shop-img" src="{{item.images[0]}}"></image>
+	<view class="shop-info">
+		<text class='shop-title'>{{item.name}}</text>
+		<text class='shop-tel'>{{item.phone}}</text>
+		<text class='shop-address'>{{item.address}}</text>
+		<text class='shop-time'>{{item.businessHours}}</text>
+	</view>
+	<view class="shop-star">
+	   <view class="star-after">★★★★★</view>
+	   <view class="star-before" style="width:{{item.score}}%;">★★★★★</view>
+	</view>
+</navigate>
+
+<!-- 加载更多 -->
+<view class="loadmore loading" wx:if="{{hasMore}}">正在加载...</view>
+<view class="loadmore" wx:else="{{hasMore}}">您已经到达世界的尽头(〜￣△￣)〜</view>

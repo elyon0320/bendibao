@@ -1,0 +1,44 @@
+page{
+	background-color: #F1F1F3;
+}
+.avatar{
+	background-color: #FE6700;
+	height: 400rpx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.avatar image{
+	width: 200rpx;
+	height: 200rpx;
+	border: 10rpx solid rgba(0,0,0,0.2);
+	border-radius: 50%;
+}
+.cell{
+	margin-top: 20rpx;
+	background-color: #fff;
+}
+.cell-item{
+	border-bottom: 1px solid #F1F1F3;
+	padding: 18rpx;
+	font-size: 30rpx;
+	font-weight: 530;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.cell-item::after{
+	content: "";
+	width: 15rpx;
+	height: 15rpx;
+	border-top: 3rpx solid #ccc;
+	border-right: 3rpx solid #ccc;
+	transform: rotate(45deg);
+	display: block;
+}
+.space::before{
+	background-color:#F1F1F3;
+	content: "";
+	height: 20rpx;
+	display: block;
+}

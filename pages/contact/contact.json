@@ -1,0 +1,8 @@
+{
+  	  "backgroundTextStyle": "light",
+  	  "navigationBarBackgroundColor": "#C78B4E",
+  	  "navigationBarTitleText": "联系我们",
+  	  "navigationBarTextStyle": "black",
+  	  "enablePullDownRefresh":false,
+  	  "backgroundTextStyle":"dark"
+}

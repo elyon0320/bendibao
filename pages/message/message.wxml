@@ -1,0 +1,7 @@
+<view class="card" wx:for="{{messageList}}" wx:key="{{index}}">	
+	<text class="card-title">{{item.title}}</text>
+	<text class="card-date">{{item.date}}</text>
+	<image src="{{item.image}}" mode="aspectFill"></image>
+	<text class="card-desc">{{item.desc}}</text>
+	<view class="card-read">查看详情</view>	
+</view>

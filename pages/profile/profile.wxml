@@ -1,0 +1,22 @@
+<view class="avatar">
+	<image src="../../assets/images/avatar.png"></image>
+</view>
+<view class="cell">
+	<navigator class="cell-item">
+		<text>个人资料</text>
+	</navigator>
+	<navigator class="cell-item">
+		<text>我的优惠券</text>
+	</navigator>
+	<view class="space"></view>
+	<navigator class="cell-item">
+		<text>常用问题</text>
+	</navigator>
+	<navigator class="cell-item">
+		<text>使用条款</text>
+	</navigator>
+	<view class="space"></view>
+	<navigator class="cell-item">
+		<text>设置</text>
+	</navigator>
+</view>

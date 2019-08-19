@@ -1,0 +1,8 @@
+{
+  	  "backgroundTextStyle": "light",
+  	  "navigationBarBackgroundColor": "#64F2CE",
+  	  "navigationBarTitleText": "美食",
+  	  "navigationBarTextStyle": "black",
+  	  "enablePullDownRefresh":true,
+  	  "backgroundTextStyle":"dark"
+}

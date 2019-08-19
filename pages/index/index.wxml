@@ -1,0 +1,29 @@
+<!-- 首页轮播图 -->
+<view class="slide">
+  <swiper indicator-dots="{{true}}" autoplay="{{true}}" interval="{{2500}}" duration="{{500}}" circular="true">
+      <swiper-item wx:for="{{swiperList}}" wx:key="{{index}}">
+        <image src="{{item.image}}" class="slide-image" width="355" height="150" mode="aspectFill" lazy-load="true"/>
+      </swiper-item>
+  </swiper> 
+</view>
+
+
+<!-- 首页菜单导航 -->
+<view class="index-nav">
+	<navigator class="nav-item" url="../shopList/shopList?class={{item.id}}&title={{item.name}}" wx:for="{{categoryList}}" wx:key="{{index}}">
+		<view class="img-box">
+			<image src="{{item.icon}}"></image>
+		</view>
+		<text>{{item.name}}</text>
+	</navigator> 
+</view>
+	
+<!-- 首页入口分区	 -->
+<view class="index-enter">
+	<navigator>
+		<image src="../../assets/images/link-01.png"></image>
+	</navigator>
+	<navigator>
+		<image src="../../assets/images/link-02.png"></image>
+	</navigator>
+</view>

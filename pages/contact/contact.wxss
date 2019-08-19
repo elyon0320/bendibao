@@ -1,0 +1,31 @@
+.divider{
+  width: 100%;
+  height:20rpx;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1) inset
+}
+.cell{
+  font-size: 16px;
+  background-color:#fff
+}
+/* .cell-item{
+  border-bottom: 1rpx solid #ddd;
+  padding: 20rpx 30rpx
+} */
+.cell-item{
+	border-bottom: 1px solid #F1F1F3;
+	padding: 18rpx;
+	font-size: 30rpx;
+	font-weight: 530;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.cell-item::after{
+	content: "";
+	width: 15rpx;
+	height: 15rpx;
+	border-top: 3rpx solid #ccc;
+	border-right: 3rpx solid #ccc;
+	transform: rotate(45deg);
+	display: block;
+}
